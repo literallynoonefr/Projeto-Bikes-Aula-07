@@ -1,0 +1,169 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+:root{
+  --primaria : rgb(21, 164, 28);
+  --secundaria : rgb(0, 0, 0);
+}
+
+header, main, footer{
+  width: 100%;
+}
+
+#banner{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  background-image: url(../images/geral/william-hook-pa0rr3rVB-U-unsplash.jpg);
+  /* bg repeat = configura repetições */
+  background-size: cover;
+  /* bg size = controla o tamanho do bg */
+  background-position: center;
+}
+
+#logo{
+  width: 13%;
+  margin-top: 60px;
+}
+
+#logo img{
+  width: 100%;
+}
+
+#nav1{
+  background-color: var(--primaria);
+  padding: 2%;
+  text-align: center;
+}
+
+#nav1 a{
+  text-decoration: none;
+  color: white;
+  margin: 0px 50px;
+  font-size: 20pt;
+  font-weight: bold; 
+}
+
+/* TÓPICOS */
+#topicos, #eventos{
+  width: 100%;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.topico, .evento{
+  width: 30%;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.topico_img{
+  width: 150px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.topico_img img{
+  width: 100%;
+}
+
+.botao{
+  padding: 10px 20px;
+  border: solid black;
+  border-radius: 5px;
+}
+
+.data_evento{
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  height: 100px;
+  color: var(--secundaria);
+}
+
+.evento{
+  flex-direction: row;
+  align-items: start;
+}
+
+.evento .botao{
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  margin: 15px 85px;
+
+}
+
+/* GALERIA */
+#galeria{
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px;
+
+}
+
+#galeria_imagens{
+  width: 100%;
+  padding: 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.galeria_imagem{
+  width: 20%;
+  height: 200px;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#galeria_img1{
+  background-image: url(../images/geral/07774ecf7f0e39243d9abb3c5e4bcc03.jpg);
+}
+
+#galeria_img2{
+  background-image: url(../images/geral/09fe2f02b18c258ac4003209df4989e7.jpg);
+}
+
+#galeria_img3{
+  background-image: url(../images/geral/193013_10150115455117379_22764457378_6771398_1578764_o.jpg);
+}
+
+#galeria_img4{
+  background-image: url(../images/geral/238921.jpg);
+}
+
+#galeria_img5{
+  background-image: url(../images/geral/275-bike.jpg);
+}
+
+#galeria_img6{
+  background-image: url(../images/geral/340x255_1330238.jpg);
+}
+
+#galeria_img7{
+  background-image: url(../images/geral/3955999424_c724298299_o.jpg);
+}
+
+#galeria_img8{
+  background-image: url(../images/geral/39c962e8cef92f4637835dd987c0755b.jpg);
+}
+
+#galeria_img9{
+  background-image: url(../images/geral/40dc178368b4b17b22d471bb917c483e.jpg);
+}
+
+#galeria_img10{
+  background-image: url(../images/geral/4566499575_1cc803f1bd_o.jpg);
+}
