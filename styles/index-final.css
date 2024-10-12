@@ -8,7 +8,7 @@
   --secundaria : rgb(0, 0, 0);
 }
 
-header, main, footer{
+header, main{
   width: 100%;
 }
 
@@ -167,3 +167,44 @@ header, main, footer{
 #galeria_img10{
   background-image: url(../images/geral/4566499575_1cc803f1bd_o.jpg);
 }
+
+#newsletter{
+  margin: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#newsletter input{
+  width: 800px;
+  padding: 8px;
+}
+
+#newsletter button{
+  background-color: gray;
+  width: 150px;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#newsletter button:hover{
+  opacity: 0.7;
+}
+
+#newsletter button:active{
+  background-color: black;
+}
+
+footer{
+  margin-top: 50px;
+  background-color: gray;
+  padding: 15px;
+  text-align: center;
+}
+
+
